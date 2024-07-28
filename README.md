@@ -1,6 +1,3 @@
-在Markdown中格式化整个README文本时，你可以遵循Markdown的语法规则来设置标题、段落、代码块、列表、链接、图片等元素。下面是一个基于你提供信息的Markdown格式化的README文本示例：
-
-```markdown
 # GAN 模型用于生成 FashionMNIST 图像
 
 ## 简介
