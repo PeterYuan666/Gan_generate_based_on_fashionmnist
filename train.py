@@ -95,7 +95,7 @@ def train(batch_size, num_epoch, lr):
             d_loss.backward()
             d_optimizer.step()
 
-            if (epoch) % 50 == 0:
+        if (epoch) % 50 == 0:
                 print('Generator loss is g_loss=', g_loss)
                 print('Discriminator loss is d_loss', d_loss)
                 with torch.no_grad():
@@ -109,11 +109,11 @@ def train(batch_size, num_epoch, lr):
                     filename = f'generated_images_epoch_{epoch_index}.png'
                     save_image(sample_images, filename, nrow=10)
                     print(f'Images from epoch {epoch_index} saved as {filename}')
-            if g_loss < 0.1 and d_loss < 0.05:
+        if g_loss < 0.1 and d_loss < 0.05:
                 break
     torch.save(generator.state_dict(), 'pretrained_generator.pth')
     torch.save(discriminator.state_dict(), 'pretrained_discriminator.pth')
-
+train(32,800,0.01)
 def load_pretrained_generator():
     generator = Generator()
     generator.load_state_dict(torch.load('pretrained_generator.pth'))
