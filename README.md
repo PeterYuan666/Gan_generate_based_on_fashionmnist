@@ -5,19 +5,19 @@ This section showcases the progress of GAN (Generative Adversarial Network) trai
   
 ## Initial Noise (or Starting Point)  
   
-![Initial Noise](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/initial_noise.png)  
+![Initial Noise](https://github.com/PeterYuan666/Gan_generate_based_on_fashionmnist/blob/cbd006c1cfa36278148f04535924662769cf170c/initial.png)  
   
 * This is typically where the GAN starts, with random noise as input.  
   
 ## Intermediate Generation  
   
-![Intermediate Generation](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/intermediate_generation.png)  
+![Intermediate Generation](https://github.com/PeterYuan666/Gan_generate_based_on_fashionmnist/blob/cbd006c1cfa36278148f04535924662769cf170c/middle_generated_images.png)  
   
 * As the GAN trains, the generated images start to take shape and become more recognizable.  
   
 ## Final Generated Images  
   
-![Final Generated Images](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/final_generated_images.png)  
+![Final Generated Images](https://github.com/PeterYuan666/Gan_generate_based_on_fashionmnist/blob/cbd006c1cfa36278148f04535924662769cf170c/final_generated_images.png)  
   
 * After sufficient training, the GAN is able to produce images that resemble the Fashion-MNIST dataset.  
   
