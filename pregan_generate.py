@@ -45,14 +45,15 @@ class Discriminator(nn.Module):
 
 def load_pretrained_generator():
     generator = Generator()
-    generator.load_state_dict(torch.load('pretrained_generator.pth'))
-    generator.eval()  # Set model to evaluation mode
+    generator.load_state_dict(torch.load('pretrained_generator.pth', map_location=torch.device('cpu')))
+    generator.eval()  
     return generator
+
 
 def load_pretrained_discriminator():
     discriminator = Discriminator()
-    discriminator.load_state_dict(torch.load('pretrained_discriminator.pth'))
-    discriminator.eval()  # Set model to evaluation mode
+    discriminator.load_state_dict(torch.load('pretrained_discriminator.pth', map_location=torch.device('cpu')))
+    discriminator.eval() 
     return discriminator
 
 lantern = 784
