@@ -23,7 +23,7 @@ This section showcases the progress of GAN (Generative Adversarial Network) trai
   
 ## Description  
   
-The GAN was trained for [X] epochs on the Fashion-MNIST dataset, gradually improving its ability to generate realistic images of clothing items. The above images represent key stages in this process, from the initial random noise to the final generated outputs.
+The GAN was trained for [800] epochs on the Fashion-MNIST dataset, gradually improving its ability to generate realistic images of clothing items. The above images represent key stages in this process, from the initial random noise to the final generated outputs.
 
 # Project Overview
 
