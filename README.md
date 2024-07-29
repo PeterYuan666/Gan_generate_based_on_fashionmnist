@@ -1,6 +1,32 @@
 # GAN 模型用于生成 FashionMNIST 图像
 
-## 简介
+# GAN Generated Images Based on Fashion-MNIST  
+  
+This section showcases the progress of GAN (Generative Adversarial Network) training, from initial noise to generated images resembling the Fashion-MNIST dataset.  
+  
+## Initial Noise (or Starting Point)  
+  
+![Initial Noise](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/initial_noise.png)  
+  
+* This is typically where the GAN starts, with random noise as input.  
+  
+## Intermediate Generation  
+  
+![Intermediate Generation](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/intermediate_generation.png)  
+  
+* As the GAN trains, the generated images start to take shape and become more recognizable.  
+  
+## Final Generated Images  
+  
+![Final Generated Images](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/final_generated_images.png)  
+  
+* After sufficient training, the GAN is able to produce images that resemble the Fashion-MNIST dataset.  
+  
+## Description  
+  
+The GAN was trained for [X] epochs on the Fashion-MNIST dataset, gradually improving its ability to generate realistic images of clothing items. The above images represent key stages in this process, from the initial random noise to the final generated outputs.
+
+## 项目简介
 
 本项目扩展了基于PyTorch的生成对抗网络（GAN）模型，利用预训练的生成器（Generator）和判别器（Discriminator）来生成类似于FashionMNIST数据集中的图像。
 
